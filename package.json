@@ -11,5 +11,11 @@
     "url": "git@github-personal:Uladzislau97/project-lvl1-s392.git"
   },
   "author": "Uladzislau Vasilyeu",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.6",
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "^7.1.6"
+  }
 }
