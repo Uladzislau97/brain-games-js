@@ -1,0 +1,8 @@
+env:
+  node: true
+
+# https://github.com/babel/babel-eslint
+parser: babel-eslint
+
+rules:
+  no-console: 0
