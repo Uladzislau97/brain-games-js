@@ -1,2 +1,4 @@
 #!/usr/bin/env node
-import index from '..';
+import { run } from '..';
+
+run();
