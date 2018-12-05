@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import run from '..';
+import runBrainGames from '../brain-games';
 
-run();
+runBrainGames();
