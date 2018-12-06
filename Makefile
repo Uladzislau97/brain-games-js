@@ -1,8 +1,10 @@
 install:
 	npm install
 
+GAME = games
+
 start:
-	npx babel-node -- src/bin/brain-games.js
+	npx babel-node -- src/bin/brain-$(GAME).js
 
 publish:
 	npm publish
