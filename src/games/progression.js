@@ -5,7 +5,6 @@ const gameDescription = 'What number is missing in the progression?';
 
 const progressionLength = 10;
 const includedMinRandomIndex = 0;
-const excludedMaxRandomIndex = 10;
 const includedMinRandomCommonDifference = 1;
 const excludedMaxRandomCommonDifference = 11;
 
@@ -23,7 +22,7 @@ const generateTask = () => {
   );
   const sequence = generateSequence(firstElement, commonDifference);
   const hiddenElementIndex = generateRandomNumber(
-    includedMinRandomIndex, excludedMaxRandomIndex,
+    includedMinRandomIndex, progressionLength,
   );
   const correctAnswer = sequence[hiddenElementIndex].toString();
   const question = generateSequenceWithHiddenElement(sequence, hiddenElementIndex).join(' ');
