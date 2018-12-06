@@ -2,10 +2,12 @@ import runGame from '../game-engine';
 import generateRandomNumber from '../utils';
 
 const gameDescription = 'Answer "yes" if given number is prime. Otherwise answer "no".';
+const minPrimeNumber = 2;
 
 const isPrime = (number) => {
+  if (number < minPrimeNumber) return false;
+
   const maxPossibleDivider = Math.floor(Math.sqrt(number));
-  const minPossibleDivider = 2;
 
   const iter = (n) => {
     if (n > maxPossibleDivider) return true;
@@ -13,7 +15,7 @@ const isPrime = (number) => {
     return iter(n + 1);
   };
 
-  return iter(minPossibleDivider);
+  return iter(minPrimeNumber);
 };
 
 const generateTask = () => {
