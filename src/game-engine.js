@@ -1,31 +1,30 @@
 import readlineSync from 'readline-sync';
 
-const QUESTIONS_MAX_NUMBER = 3;
+const questionsMaxNumber = 3;
 
-const askQuestion = (generateQuestion, getCorrectAnswer, questionNumber = 1) => {
-  if (questionNumber > QUESTIONS_MAX_NUMBER) {
+const askQuestion = (generateTask, questionNumber = 1) => {
+  if (questionNumber > questionsMaxNumber) {
     return { isVictory: true };
   }
 
-  const question = generateQuestion();
+  const { question, correctAnswer } = generateTask();
   console.log(`Question: ${question}`);
   const givenAnswer = readlineSync.question('Your answer: ');
-  const correctAnswer = getCorrectAnswer(question);
 
   if (givenAnswer !== correctAnswer) {
     return { isVictory: false, givenAnswer, correctAnswer };
   }
 
   console.log('Correct!');
-  return askQuestion(generateQuestion, getCorrectAnswer, questionNumber + 1);
+  return askQuestion(generateTask, questionNumber + 1);
 };
 
-export default (gameDescription, generateQuestion, getCorrectAnswer) => {
+export default (gameDescription, generateTask) => {
   console.log('Welcome to the Brain Games!');
   console.log(`${gameDescription}\n`);
   const name = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${name}!`);
-  const gameResult = askQuestion(generateQuestion, getCorrectAnswer);
+  const gameResult = askQuestion(generateTask);
   const finalMessage = gameResult.isVictory
     ? `Congratulations, ${name}!`
     : `'${gameResult.givenAnswer}' is wrong answer ;(. Correct answer was '${gameResult.correctAnswer}'.`;
