@@ -2,9 +2,10 @@ import runGame from '../game-engine';
 import generateRandomNumber from '../utils';
 
 const gameDescription = 'Answer "yes" if given number is prime. Otherwise answer "no".';
-const minPrimeNumber = 2;
 
 const isPrime = (number) => {
+  const minPrimeNumber = 2;
+
   if (number < minPrimeNumber) return false;
 
   const maxPossibleDivider = Math.floor(Math.sqrt(number));
