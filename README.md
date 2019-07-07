@@ -1,6 +1,6 @@
 # Brain Games
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/bd7ea077508aa93ea72b/maintainability)](https://codeclimate.com/github/Uladzislau97/project-lvl1-s392/maintainability) [![Build Status](https://travis-ci.org/Uladzislau97/brain-games.svg?branch=master)](https://travis-ci.org/Uladzislau97/brain-games)
+[![Maintainability](https://api.codeclimate.com/v1/badges/bd7ea077508aa93ea72b/maintainability)](https://codeclimate.com/github/Uladzislau97/project-lvl1-s392/maintainability) [![Build Status](https://travis-ci.org/Uladzislau97/brain-games-js.svg?branch=master)](https://travis-ci.org/Uladzislau97/brain-games-js)
 
 ##### A set of console mini-games.
 #
