@@ -1,18 +1,18 @@
-# Brain Games
+# Brain Games JS
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/bd7ea077508aa93ea72b/maintainability)](https://codeclimate.com/github/Uladzislau97/project-lvl1-s392/maintainability) [![Build Status](https://travis-ci.org/Uladzislau97/brain-games-js.svg?branch=master)](https://travis-ci.org/Uladzislau97/brain-games-js)
+[![Maintainability](https://api.codeclimate.com/v1/badges/4932b44b90e24c7f985c/maintainability)](https://codeclimate.com/github/Uladzislau97/brain-games-js/maintainability) [![Build Status](https://travis-ci.org/Uladzislau97/brain-games-js.svg?branch=master)](https://travis-ci.org/Uladzislau97/brain-games-js)
 
 ##### A set of console mini-games.
 #
 ##### INSTALLATION
-[![asciicast](https://asciinema.org/a/kz2cZcszcWGciEGVFp9L2zZHj.svg)](https://asciinema.org/a/kz2cZcszcWGciEGVFp9L2zZHj)
+[![asciicast](https://asciinema.org/a/R2C6T0LOiGGEV92lAhi5BLVE6.svg)](https://asciinema.org/a/R2C6T0LOiGGEV92lAhi5BLVE6)
 ##### BRAIN-EVEN
-[![asciicast](https://asciinema.org/a/xpna04ydvECjTEa6isBCZgBn1.svg)](https://asciinema.org/a/xpna04ydvECjTEa6isBCZgBn1)
+[![asciicast](https://asciinema.org/a/Hb77rd33bwKrKGS8CcWPfWYXq.svg)](https://asciinema.org/a/Hb77rd33bwKrKGS8CcWPfWYXq)
 ##### BRAIN-CALC
-[![asciicast](https://asciinema.org/a/13NYXyDlvwwhI364Aos10cdC3.svg)](https://asciinema.org/a/13NYXyDlvwwhI364Aos10cdC3)
+[![asciicast](https://asciinema.org/a/PPRitk6jzvhXnJ5WieK1AaLaG.svg)](https://asciinema.org/a/PPRitk6jzvhXnJ5WieK1AaLaG)
 ##### BRAIN-GCD
-[![asciicast](https://asciinema.org/a/6vdHHIfJpnJmxOxc5kbl5k9Kp.svg)](https://asciinema.org/a/6vdHHIfJpnJmxOxc5kbl5k9Kp)
+[![asciicast](https://asciinema.org/a/mb56BXXOkXPvX3ncMVXUaykCU.svg)](https://asciinema.org/a/mb56BXXOkXPvX3ncMVXUaykCU)
 ##### BRAIN-PROGRESSION
-[![asciicast](https://asciinema.org/a/2u7wCLuDdY6Y5u4xwY3Qgm1SN.svg)](https://asciinema.org/a/2u7wCLuDdY6Y5u4xwY3Qgm1SN)
+[![asciicast](https://asciinema.org/a/xdrWZyeeBtxgzqz4XcAJHgnH1.svg)](https://asciinema.org/a/xdrWZyeeBtxgzqz4XcAJHgnH1)
 ##### BRAIN-PRIME
-[![asciicast](https://asciinema.org/a/odByZ8N3sO5klcUhj7h1yhIjA.svg)](https://asciinema.org/a/odByZ8N3sO5klcUhj7h1yhIjA)
+[![asciicast](https://asciinema.org/a/kKz1Fbn5w55f621ZhORyOha1w.svg)](https://asciinema.org/a/kKz1Fbn5w55f621ZhORyOha1w)
