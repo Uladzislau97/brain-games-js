@@ -1,6 +1,6 @@
 {
-  "name": "uladzislau97-brain-games",
-  "version": "1.6.3",
+  "name": "brain-games-js",
+  "version": "1.6.4",
   "description": "Set of console mini-games.",
   "keywords": [
     "game",
@@ -11,12 +11,12 @@
     "mini-games"
   ],
   "bin": {
-    "brain-games": "dist/bin/brain-games.js",
-    "brain-even": "dist/bin/brain-even.js",
-    "brain-calc": "dist/bin/brain-calc.js",
-    "brain-gcd": "dist/bin/brain-gcd.js",
-    "brain-progression": "dist/bin/brain-progression.js",
-    "brain-prime": "dist/bin/brain-prime.js"
+    "brain-games-js": "dist/bin/brain-games.js",
+    "brain-even-js": "dist/bin/brain-even.js",
+    "brain-calc-js": "dist/bin/brain-calc.js",
+    "brain-gcd-js": "dist/bin/brain-gcd.js",
+    "brain-progression-js": "dist/bin/brain-progression.js",
+    "brain-prime-js": "dist/bin/brain-prime.js"
   },
   "files": [
     "dist"
@@ -27,7 +27,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github-personal:Uladzislau97/project-lvl1-s392.git"
+    "url": "git@github-personal:Uladzislau97/brain-games-js.git"
   },
   "author": "Uladzislau Vasilyeu",
   "license": "ISC",
